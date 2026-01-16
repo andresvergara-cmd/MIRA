@@ -13,5 +13,12 @@
         "login": "Login",
         "profile": "Profile",
         "chat": "Chat"
+    },
+    "Chat": {
+        "welcome": "Hello, I'm M.I.R.A. I'm here to listen to you without judgment, so you can feel safe. How are you feeling today?",
+        "placeholder": "Tell me how you feel...",
+        "risk_alert": "It seems like you are going through a very difficult time. Please consider talking to a professional or using our safety plan.",
+        "sending": "M.I.R.A is processing...",
+        "anonymous_tag": "Anonymous Mode Active"
     }
 }

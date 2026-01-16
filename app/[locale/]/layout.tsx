@@ -22,7 +22,6 @@ export default async function LocaleLayout({
     }
 
     setRequestLocale(locale);
-
     const messages = await getMessages();
 
     return (

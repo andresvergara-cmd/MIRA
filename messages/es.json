@@ -13,5 +13,12 @@
         "login": "Iniciar Sesión",
         "profile": "Perfil",
         "chat": "Chat"
+    },
+    "Chat": {
+        "welcome": "Hola, soy M.I.R.A. Estoy aquí para escucharte sin juicios por lo que puedes sentirte seguro. ¿Cómo te sientes hoy?",
+        "placeholder": "Cuéntame cómo te sientes...",
+        "risk_alert": "Parece que estás pasando por un momento muy difícil. Por favor, considera hablar con un profesional o usar nuestro plan de seguridad.",
+        "sending": "M.I.R.A está procesando...",
+        "anonymous_tag": "Modo Anónimo Activo"
     }
 }
