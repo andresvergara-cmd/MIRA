@@ -51,6 +51,12 @@ export default function ChatInterface() {
                 mood: data.analysis_layer?.risk_level === 'HIGH' ? '#ff4b4b' : '#00f5ff'
             };
 
+            if (data.analysis_layer?.risk_level === 'HIGH') {
+                if (typeof window !== 'undefined' && (window as any).triggerJITAI) {
+                    (window as any).triggerJITAI();
+                }
+            }
+
             setMessages(prev => [...prev, botMessage]);
         } catch (error) {
             console.error('Fetch error:', error);

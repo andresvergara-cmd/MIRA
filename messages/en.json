@@ -39,17 +39,33 @@
         "recommendation_engage_positive": "Engaging with more positive content.",
         "recommendation_take_break": "Taking a digital detox break."
     },
-    "Navbar": {
-        "login": "Login",
-        "profile": "Profile",
-        "chat": "Chat",
-        "dashboard": "Dashboard"
-    },
     "Chat": {
         "welcome": "Hello, I'm M.I.R.A. I'm here to listen to you without judgment, so you can feel safe. How are you feeling today?",
         "placeholder": "Tell me how you feel...",
         "risk_alert": "It seems like you are going through a very difficult time. Please consider talking to a professional or using our safety plan.",
         "sending": "M.I.R.A is processing...",
         "anonymous_tag": "Anonymous Mode Active"
+    },
+    "Safety": {
+        "title": "JITAI Safety Center",
+        "tabs": {
+            "breathing": "Breathing",
+            "contacts": "Contacts",
+            "help": "External Help"
+        },
+        "breathing": {
+            "inhale": "Inhale deeply...",
+            "hold": "Hold your breath...",
+            "exhale": "Exhale slowly..."
+        },
+        "contacts_notice": "These are your locally configured trusted contacts.",
+        "crisis_lines": "24/7 Crisis Lines",
+        "warning": "This is an emergency intervention. Breathe, we are with you."
+    },
+    "Navbar": {
+        "login": "Login",
+        "profile": "Profile",
+        "chat": "Chat",
+        "dashboard": "Dashboard"
     }
 }

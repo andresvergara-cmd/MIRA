@@ -9,6 +9,22 @@
         },
         "cta": "Empezar Chat Anónimo"
     },
+    "Safety": {
+        "title": "Centro de Seguridad JITAI",
+        "tabs": {
+            "breathing": "Respiración",
+            "contacts": "Contactos",
+            "help": "Ayuda Externa"
+        },
+        "breathing": {
+            "inhale": "Inhala profundamente...",
+            "hold": "Mantén el aire...",
+            "exhale": "Exhala suavemente..."
+        },
+        "contacts_notice": "Estos son tus contactos de confianza configurados localmente.",
+        "crisis_lines": "Líneas de Crisis 24/7",
+        "warning": "Esta es una intervención de emergencia. Respira, estamos contigo."
+    },
     "Navbar": {
         "login": "Iniciar Sesión",
         "profile": "Perfil",
