@@ -14,6 +14,7 @@ Este plan cubre la inicialización del proyecto M.I.R.A (Mental Insight & Respon
 
 ### [Base]
 - Inicializar el proyecto Next.js con App Router.
+- **Configurar Internacionalización (i18n):** Implementar soporte para Español e Inglés.
 - Configurar Tailwind CSS con la paleta de colores personalizada:
   - Primario: `#2e1b50`
   - Acento: `#00f5ff`
@@ -22,6 +23,7 @@ Este plan cubre la inicialización del proyecto M.I.R.A (Mental Insight & Respon
 ### [Pantalla de Inicio]
 #### [NUEVO] `src/app/page.tsx`
 - Implementar la sección Hero con el eslogan: "Prevención Inteligente: Tu IA de salud mental en segundo plano."
+- **Selector de Idioma:** Componente para cambiar entre ES/EN.
 - Añadir la visualización interactiva "Soundwave" (estado EMPATHY_READY).
 - Crear la sección de tarjetas de características (Privacidad, Soporte 24/7, IA Empática).
 
