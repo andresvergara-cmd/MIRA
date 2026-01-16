@@ -6,13 +6,44 @@
             "privacy": "Total Privacy",
             "support": "24/7 Support",
             "empathy": "Empathic AI"
-        },
-        "cta": "Start Anonymous Chat"
+        }
+    },
+    "Dashboard": {
+        "title": "Social Watch Control Center",
+        "activity": "Interaction Activity",
+        "insomnia_alert": "Digital Insomnia Alert Detected",
+        "insomnia_desc": "Constant interactions detected between 2 AM and 5 AM.",
+        "mood_trend": "Well-being Trend",
+        "stats": {
+            "total": "Total Interactions",
+            "risk": "Risk Alerts",
+            "safe": "Safe Spaces"
+        }
+    },
+    "SocialWatch": {
+        "title": "Social Watch",
+        "description": "Monitor your social media interactions for well-being insights.",
+        "connect_platform": "Connect Platform",
+        "disconnect_platform": "Disconnect Platform",
+        "platform_status": "Status: Connected",
+        "platform_status_disconnected": "Status: Disconnected",
+        "insights_header": "Your Social Insights",
+        "no_insights": "No insights available yet. Connect a platform to start.",
+        "risk_level": "Risk Level",
+        "risk_low": "Low",
+        "risk_medium": "Medium",
+        "risk_high": "High",
+        "recommendation_header": "Recommendations",
+        "recommendation_desc": "Based on your activity, we recommend:",
+        "recommendation_limit_screen_time": "Limiting screen time before bed.",
+        "recommendation_engage_positive": "Engaging with more positive content.",
+        "recommendation_take_break": "Taking a digital detox break."
     },
     "Navbar": {
         "login": "Login",
         "profile": "Profile",
-        "chat": "Chat"
+        "chat": "Chat",
+        "dashboard": "Dashboard"
     },
     "Chat": {
         "welcome": "Hello, I'm M.I.R.A. I'm here to listen to you without judgment, so you can feel safe. How are you feeling today?",

@@ -14,16 +14,19 @@ export default function Navbar() {
                 </Link>
 
                 <div className="flex items-center gap-8">
-                    <Link href="/login" className="text-sm font-medium hover:text-accent transition-colors">
-                        {t('login')}
+                    <Link href="/chat" className="text-sm font-medium hover:text-accent transition-colors">
+                        {t('chat')}
+                    </Link>
+                    <Link href="/dashboard" className="text-sm font-medium hover:text-accent transition-colors">
+                        {t('dashboard')}
                     </Link>
                     <Link href="/perfil" className="text-sm font-medium hover:text-accent transition-colors">
                         {t('profile')}
                     </Link>
-                    <Link href="/chat" className="px-5 py-2 glass-card rounded-xl text-sm font-bold text-accent">
-                        {t('chat')}
-                    </Link>
                     <LanguageSelector />
+                    <button className="px-5 py-2 bg-white/10 hover:bg-white/20 rounded-full text-sm font-bold transition-all border border-white/10">
+                        {t('login')}
+                    </button>
                 </div>
             </div>
         </nav>

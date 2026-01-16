@@ -12,7 +12,8 @@
     "Navbar": {
         "login": "Iniciar Sesión",
         "profile": "Perfil",
-        "chat": "Chat"
+        "chat": "Chat",
+        "dashboard": "Dashboard"
     },
     "Chat": {
         "welcome": "Hola, soy M.I.R.A. Estoy aquí para escucharte sin juicios por lo que puedes sentirte seguro. ¿Cómo te sientes hoy?",
@@ -20,5 +21,17 @@
         "risk_alert": "Parece que estás pasando por un momento muy difícil. Por favor, considera hablar con un profesional o usar nuestro plan de seguridad.",
         "sending": "M.I.R.A está procesando...",
         "anonymous_tag": "Modo Anónimo Activo"
+    },
+    "Dashboard": {
+        "title": "Centro de Control Social Watch",
+        "activity": "Actividad de Interacción",
+        "insomnia_alert": "Alerta de Insomnio Digital Detectada",
+        "insomnia_desc": "Se han detectado interacciones constantes entre las 2 AM y 5 AM.",
+        "mood_trend": "Tendencia de Bienestar",
+        "stats": {
+            "total": "Interacciones Totales",
+            "risk": "Alertas de Riesgo",
+            "safe": "Espacios Seguros"
+        }
     }
 }
