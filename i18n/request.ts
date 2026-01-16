@@ -1,8 +1,12 @@
 import { getRequestConfig } from 'next-intl/server';
-import { getUserLocale } from './request'; // This is a placeholder, usually it's just a simple config
+import { routing } from './routing';
 
 export default getRequestConfig(async ({ locale }) => {
+    // Ensure we have a valid locale
+    const activeLocale = locale || routing.defaultLocale;
+
     return {
-        messages: (await import(`../messages/${locale}.json`)).default
+        locale: activeLocale,
+        messages: (await import(`../messages/${activeLocale}.json`)).default
     };
 });
