@@ -1,0 +1,17 @@
+{
+    "Home": {
+        "title": "Intelligent Prevention: Your mental health AI in the background.",
+        "subtitle": "M.I.R.A. cares for you while you live your life.",
+        "features": {
+            "privacy": "Total Privacy",
+            "support": "24/7 Support",
+            "empathy": "Empathic AI"
+        },
+        "cta": "Start Anonymous Chat"
+    },
+    "Navbar": {
+        "login": "Login",
+        "profile": "Profile",
+        "chat": "Chat"
+    }
+}

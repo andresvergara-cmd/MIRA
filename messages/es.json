@@ -1,0 +1,17 @@
+{
+    "Home": {
+        "title": "Prevención Inteligente: Tu IA de salud mental en segundo plano.",
+        "subtitle": "M.I.R.A cuida de ti mientras vives tu vida.",
+        "features": {
+            "privacy": "Privacidad Total",
+            "support": "Soporte 24/7",
+            "empathy": "IA Empática"
+        },
+        "cta": "Empezar Chat Anónimo"
+    },
+    "Navbar": {
+        "login": "Iniciar Sesión",
+        "profile": "Perfil",
+        "chat": "Chat"
+    }
+}
