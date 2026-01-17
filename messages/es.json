@@ -73,6 +73,9 @@
             "nature_desc": "Hay tanto por descubrir aún",
             "friends": "Mis amigos",
             "friends_desc": "Risas que valen la pena"
+        },
+        "tabs": {
+            "contacts": "Contactos de Confianza"
         }
     },
     "Onboarding": {

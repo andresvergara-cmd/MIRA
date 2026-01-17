@@ -73,6 +73,9 @@
             "nature_desc": "There is still so much to discover",
             "friends": "My friends",
             "friends_desc": "Laughs that are worth it"
+        },
+        "tabs": {
+            "contacts": "Trusted Contacts"
         }
     },
     "Onboarding": {
