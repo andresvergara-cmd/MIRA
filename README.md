@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# M.I.R.A. (Mental Insight and Response Agent)
 
-## Getting Started
+M.I.R.A. es una plataforma inteligente diseñada para el bienestar mental y el crecimiento emocional. Utiliza inteligencia artificial avanzada (Gemini) para proporcionar apoyo empático, analizar patrones de bienestar y ofrecer rutas de seguridad en tiempo real.
 
-First, run the development server:
+## 🚀 Estado del Proyecto: Producción
+La plataforma se encuentra actualmente desplegada y funcional:
+- **Frontend & API**: [Vercel](https://vercel.com)
+- **Base de Datos**: PostgreSQL en [Railway](https://railway.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Características Principales
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Onboarding Inteligente**: Flujo de 5 pasos para personalización y seguridad del usuario.
+- **Asistente Empático**: Chat en tiempo real con análisis de sentimientos y detección de riesgos.
+- **Social Watch**: Monitoreo de patrones (como el insomnio digital) para brindar insights de salud mental.
+- **Plan de Seguridad**: Intervenciones JITAI (Just-In-Time Adaptive Interventions) y red de apoyo.
+- **Multi-idioma**: Soporte completo para Español e Inglés (i18n).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Stack Tecnológico
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 16 (App Router)
+- **Lenguaje**: TypeScript
+- **Estilos**: Tailwind CSS 4
+- **Base de Datos**: PostgreSQL via Prisma ORM
+- **IA**: Google Generative AI (Gemini 2.0 Flash)
+- **Animaciones**: Framer Motion
+- **Internacionalización**: next-intl
 
-## Learn More
+## 📦 Instalación Local
 
-To learn more about Next.js, take a look at the following resources:
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/andresvergara-cmd/MIRA.git
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Instalar dependencias:
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Configurar variables de entorno (`.env`):
+   ```env
+   GEMINI_API_KEY=tu_api_key
+   DATABASE_URL="postgresql://user:password@localhost:5432/mira_db?schema=public"
+   ```
 
-## Deploy on Vercel
+4. Generar cliente de Prisma:
+   ```bash
+   npx prisma generate
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Iniciar servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 Documentación Adicional
+- [Documento de Arquitectura](Documento%20de%20Arquitectura%20y%20Desarrollo_%20Proyecto%20MIRA.pdf)
+- [Backlog](backlog.md)
