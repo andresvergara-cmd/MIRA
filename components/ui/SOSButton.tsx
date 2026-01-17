@@ -6,11 +6,14 @@ export default function SOSButton({ onClick }: { onClick: () => void }) {
     return (
         <button
             onClick={onClick}
-            className="fixed bottom-8 right-8 z-[100] w-16 h-16 bg-red-600 text-white rounded-full shadow-[0_0_20px_rgba(220,38,38,0.5)] flex items-center justify-center text-2xl font-black hover:scale-110 active:scale-95 transition-all animate-pulse hover:animate-none group"
-            aria-label="S.O.S"
+            className="fixed bottom-6 right-6 z-[100] w-14 h-14 bg-soft-orange text-primary rounded-full shadow-[0_0_20px_rgba(255,159,104,0.3)] flex items-center justify-center hover:scale-110 active:scale-95 transition-all animate-pulse group overflow-hidden"
+            aria-label="Emergencia S.O.S"
         >
-            SOS
-            <div className="absolute inset-0 rounded-full border-4 border-red-600 animate-ping opacity-25 pointer-events-none" />
+            <span className="material-symbols-outlined text-2xl font-bold">emergency</span>
+            <div className="absolute inset-0 rounded-full border-4 border-soft-orange animate-ping opacity-20 pointer-events-none" />
+
+            {/* Glossy overlay effect */}
+            <div className="absolute inset-0 bg-gradient-to-tr from-white/20 to-transparent pointer-events-none" />
         </button>
     );
 }

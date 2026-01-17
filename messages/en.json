@@ -1,4 +1,10 @@
 {
+    "Navbar": {
+        "chat": "Chat",
+        "dashboard": "Dashboard",
+        "profile": "Profile",
+        "login": "Login"
+    },
     "Home": {
         "title": "Intelligent Prevention: Your mental health AI in the background.",
         "subtitle": "M.I.R.A. cares for you while you live your life.",
@@ -6,7 +12,8 @@
             "privacy": "Total Privacy",
             "support": "24/7 Support",
             "empathy": "Empathic AI"
-        }
+        },
+        "cta": "Start Anonymous Chat"
     },
     "Dashboard": {
         "title": "Social Watch Control Center",
@@ -47,25 +54,76 @@
         "anonymous_tag": "Anonymous Mode Active"
     },
     "Safety": {
-        "title": "JITAI Safety Center",
-        "tabs": {
-            "breathing": "Breathing",
-            "contacts": "Contacts",
-            "help": "External Help"
-        },
-        "breathing": {
-            "inhale": "Inhale deeply...",
-            "hold": "Hold your breath...",
-            "exhale": "Exhale slowly..."
-        },
-        "contacts_notice": "These are your locally configured trusted contacts.",
-        "crisis_lines": "24/7 Crisis Lines",
-        "warning": "This is an emergency intervention. Breathe, we are with you."
+        "title": "Safety Plan",
+        "subtitle": "We are here with you. Take a deep breath, you are not alone.",
+        "alert_banner": "Help available 24/7. Breathe deeply, we are here.",
+        "reasons_to_live": "Reasons to live",
+        "emergency_contacts": "Emergency Contacts",
+        "call_crisis": "Call Crisis Line",
+        "confidential": "24/7 Confidential",
+        "contact_support": "Contact Support Network",
+        "trusted_contacts": "Your trusted contacts",
+        "immediate_warning": "IF YOU ARE IN IMMEDIATE DANGER, CALL 911",
+        "reasons": {
+            "family": "My family",
+            "family_desc": "They love me and need me",
+            "pet": "My dog, Lucas",
+            "pet_desc": "My faithful daily companion",
+            "nature": "Nature",
+            "nature_desc": "There is still so much to discover",
+            "friends": "My friends",
+            "friends_desc": "Laughs that are worth it"
+        }
     },
-    "Navbar": {
-        "login": "Login",
-        "profile": "Profile",
-        "chat": "Chat",
-        "dashboard": "Dashboard"
+    "Onboarding": {
+        "skip": "Skip",
+        "next": "Next",
+        "finish": "Finish",
+        "welcome": {
+            "title": "Welcome to",
+            "subtitle": "Your intelligent companion for mental well-being and emotional growth.",
+            "cta": "Get Started"
+        },
+        "privacy": {
+            "title": "Your privacy is priority",
+            "subtitle": "We analyze patterns in the background in a 100% anonymous and secure way. Your emotional data is yours alone.",
+            "step_label": "Step 02: Security",
+            "encryption_title": "End-to-end encryption",
+            "encryption_desc": "We use military-grade protocols to ensure that no one, not even us, can access your private conversations.",
+            "control_title": "Full data control",
+            "control_desc": "You decide what to share. You can delete your entire history or disable analytical tracking at any time with a single click."
+        },
+        "config": {
+            "title": "Personalize your experience",
+            "subtitle": "Allow M.I.R.A. to take care of you in the moments you need it most.",
+            "step_label": "Step 3 of 3",
+            "progress_desc": "Almost ready to start",
+            "notifications_title": "Wellness notifications",
+            "notifications_desc": "Daily reminders and mood alerts.",
+            "analysis_title": "Intelligent analysis",
+            "analysis_desc": "Allow the AI to process your patterns to offer you better advice.",
+            "cta": "Finish configuration"
+        },
+        "profile": {
+            "title": "Personalize your Profile",
+            "subtitle": "M.I.R.A. needs to know you better to protect you.",
+            "name_label": "Full Name",
+            "name_placeholder": "Enter your name",
+            "age_label": "Age",
+            "age_placeholder": "25",
+            "sources_title": "Connect Data Sources",
+            "cta": "Finish and Activate AI",
+            "footer_note": "By activating M.I.R.A., you accept the processing of neural data for real-time emotional assistance."
+        },
+        "summary": {
+            "title": "Configuration Completed",
+            "name_label": "Name",
+            "sources_label": "Connected Sources",
+            "ai_status_label": "AI Status",
+            "ai_status_analyzing": "Analyzing...",
+            "message": "We are here to accompany you every step of the way. Your well-being is our only mission.",
+            "cta": "Start Experience",
+            "footer_version": "M.I.R.A. Core v2.4 - Neural Link Active"
+        }
     }
 }

@@ -1,4 +1,10 @@
 {
+    "Navbar": {
+        "chat": "Chat",
+        "dashboard": "Panel",
+        "profile": "Perfil",
+        "login": "Entrar"
+    },
     "Home": {
         "title": "Prevención Inteligente: Tu IA de salud mental en segundo plano.",
         "subtitle": "M.I.R.A cuida de ti mientras vives tu vida.",
@@ -8,35 +14,6 @@
             "empathy": "IA Empática"
         },
         "cta": "Empezar Chat Anónimo"
-    },
-    "Safety": {
-        "title": "Centro de Seguridad JITAI",
-        "tabs": {
-            "breathing": "Respiración",
-            "contacts": "Contactos",
-            "help": "Ayuda Externa"
-        },
-        "breathing": {
-            "inhale": "Inhala profundamente...",
-            "hold": "Mantén el aire...",
-            "exhale": "Exhala suavemente..."
-        },
-        "contacts_notice": "Estos son tus contactos de confianza configurados localmente.",
-        "crisis_lines": "Líneas de Crisis 24/7",
-        "warning": "Esta es una intervención de emergencia. Respira, estamos contigo."
-    },
-    "Navbar": {
-        "login": "Iniciar Sesión",
-        "profile": "Perfil",
-        "chat": "Chat",
-        "dashboard": "Dashboard"
-    },
-    "Chat": {
-        "welcome": "Hola, soy M.I.R.A. Estoy aquí para escucharte sin juicios por lo que puedes sentirte seguro. ¿Cómo te sientes hoy?",
-        "placeholder": "Cuéntame cómo te sientes...",
-        "risk_alert": "Parece que estás pasando por un momento muy difícil. Por favor, considera hablar con un profesional o usar nuestro plan de seguridad.",
-        "sending": "M.I.R.A está procesando...",
-        "anonymous_tag": "Modo Anónimo Activo"
     },
     "Dashboard": {
         "title": "Centro de Control Social Watch",
@@ -48,6 +25,105 @@
             "total": "Interacciones Totales",
             "risk": "Alertas de Riesgo",
             "safe": "Espacios Seguros"
+        }
+    },
+    "SocialWatch": {
+        "title": "Social Watch",
+        "description": "Monitorea tus interacciones en redes sociales para obtener información sobre tu bienestar.",
+        "connect_platform": "Conectar Plataforma",
+        "disconnect_platform": "Desconectar Plataforma",
+        "platform_status": "Estado: Conectado",
+        "platform_status_disconnected": "Estado: Desconectado",
+        "insights_header": "Tus Estadísticas Sociales",
+        "no_insights": "Aún no hay estadísticas disponibles. Conecta una plataforma para comenzar.",
+        "risk_level": "Nivel de Riesgo",
+        "risk_low": "Bajo",
+        "risk_medium": "Medio",
+        "risk_high": "Alto",
+        "recommendation_header": "Recomendaciones",
+        "recommendation_desc": "Basado en tu actividad, recomendamos:",
+        "recommendation_limit_screen_time": "Limitar el tiempo de pantalla antes de dormir.",
+        "recommendation_engage_positive": "Interactuar con contenido más positivo.",
+        "recommendation_take_break": "Tomar un descanso de desintoxicación digital."
+    },
+    "Chat": {
+        "welcome": "Hola, soy M.I.R.A. Estoy aquí para escucharte sin juicios por lo que puedes sentirte seguro. ¿Cómo te sientes hoy?",
+        "placeholder": "Cuéntame cómo te sientes...",
+        "risk_alert": "Parece que estás pasando por un momento muy difícil. Por favor, considera hablar con un profesional o usar nuestro plan de seguridad.",
+        "sending": "M.I.R.A está procesando...",
+        "anonymous_tag": "Modo Anónimo Activo"
+    },
+    "Safety": {
+        "title": "Plan de Seguridad",
+        "subtitle": "Estamos aquí contigo. Respira hondo, no estás solo.",
+        "alert_banner": "Ayuda disponible 24/7. Respira profundo, estamos aquí.",
+        "reasons_to_live": "Razones para vivir",
+        "emergency_contacts": "Contactos de Emergencia",
+        "call_crisis": "Llamar a Línea de Crisis",
+        "confidential": "24/7 Confidencial",
+        "contact_support": "Contactar Red de Apoyo",
+        "trusted_contacts": "Tus contactos de confianza",
+        "immediate_warning": "SI ESTÁS EN PELIGRO INMEDIATO, LLAMA AL 911",
+        "reasons": {
+            "family": "Mi familia",
+            "family_desc": "Ellos me aman y me necesitan",
+            "pet": "Mi perro, Lucas",
+            "pet_desc": "Mi compañero fiel de cada día",
+            "nature": "La naturaleza",
+            "nature_desc": "Hay tanto por descubrir aún",
+            "friends": "Mis amigos",
+            "friends_desc": "Risas que valen la pena"
+        }
+    },
+    "Onboarding": {
+        "skip": "Saltar",
+        "next": "Siguiente",
+        "finish": "Finalizar",
+        "welcome": {
+            "title": "Bienvenido a",
+            "subtitle": "Tu compañero inteligente para el bienestar mental y el crecimiento emocional.",
+            "cta": "Comenzar"
+        },
+        "privacy": {
+            "title": "Tu privacidad es prioridad",
+            "subtitle": "Analizamos patrones en segundo plano de forma 100% anónima y segura. Tus datos emocionales son solo tuyos.",
+            "step_label": "Paso 02: Seguridad",
+            "encryption_title": "Cifrado de extremo a extremo",
+            "encryption_desc": "Utilizamos protocolos de nivel militar para asegurar que nadie, ni siquiera nosotros, pueda acceder a tus conversaciones privadas.",
+            "control_title": "Control total de datos",
+            "control_desc": "Tú decides qué compartir. Puedes eliminar tu historial completo o desactivar el seguimiento analítico en cualquier momento con un solo clic."
+        },
+        "config": {
+            "title": "Personaliza tu experiencia",
+            "subtitle": "Permite que M.I.R.A. te cuide en los momentos que más lo necesitas.",
+            "step_label": "Paso 3 de 3",
+            "progress_desc": "Casi listo para comenzar",
+            "notifications_title": "Notificaciones de bienestar",
+            "notifications_desc": "Recordatorios diarios y alertas de estado de ánimo.",
+            "analysis_title": "Análisis inteligente",
+            "analysis_desc": "Permite a la IA procesar tus patrones para ofrecerte mejores consejos.",
+            "cta": "Finalizar configuración"
+        },
+        "profile": {
+            "title": "Personaliza tu Perfil",
+            "subtitle": "M.I.R.A. necesita conocerte mejor para protegerte.",
+            "name_label": "Nombre Completo",
+            "name_placeholder": "Ingresa tu nombre",
+            "age_label": "Edad",
+            "age_placeholder": "25",
+            "sources_title": "Conectar Fuentes de Datos",
+            "cta": "Finalizar y Activar IA",
+            "footer_note": "Al activar M.I.R.A., aceptas el procesamiento de datos neuronales para asistencia emocional en tiempo real."
+        },
+        "summary": {
+            "title": "Configuración Completada",
+            "name_label": "Nombre",
+            "sources_label": "Fuentes Conectadas",
+            "ai_status_label": "Estado de IA",
+            "ai_status_analyzing": "Analizando...",
+            "message": "Estamos aquí para acompañarte en cada paso. Tu bienestar es nuestra única misión.",
+            "cta": "Comenzar Experiencia",
+            "footer_version": "M.I.R.A. Core v2.4 - Enlace Neuronal Activo"
         }
     }
 }

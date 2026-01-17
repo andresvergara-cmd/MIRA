@@ -4,13 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@prisma/client": "^6.2.1",
+    "framer-motion": "^12.26.2",
     "next": "16.1.2",
     "next-intl": "^4.7.0",
     "prisma": "^6.2.1",

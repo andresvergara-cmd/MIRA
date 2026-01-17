@@ -1,14 +1,14 @@
 import { NextResponse } from 'next/server';
 import { getGeminiResponse } from '@/lib/gemini';
-import { PrismaClient } from '@prisma/client';
+import prisma from '@/lib/prisma';
 
-const prisma = new PrismaClient();
+export const dynamic = 'force-dynamic';
 
 export async function POST(req: Request) {
-    let locale = 'es';
+    let locale = 'en';
     try {
         const body = await req.json();
-        locale = body.locale || 'es';
+        locale = body.locale || 'en';
         const messages = body.messages;
 
         // 1. Get real response from Gemini

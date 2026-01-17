@@ -31,7 +31,7 @@ INSTRUCTIONS:
 
 export async function getGeminiResponse(messages: any[], locale: string) {
     const model = genAI.getGenerativeModel({
-        model: "gemini-1.5-flash",
+        model: "gemini-2.0-flash-exp",
         generationConfig: { responseMimeType: "application/json" }
     });
 
@@ -53,9 +53,11 @@ export async function getGeminiResponse(messages: any[], locale: string) {
     const lastMessage = messages[messages.length - 1].content;
 
     try {
+        const targetLanguage = locale === 'es' ? 'Spanish' : 'English';
         const result = await model.generateContent([
             SYSTEM_PROMPT,
             ...geminiHistory.map(h => `${h.role}: ${h.parts[0].text}`),
+            `IMPORTANT: Respond in ${targetLanguage}.`,
             `User: ${lastMessage}`
         ]);
 

@@ -22,6 +22,7 @@ export default async function LocaleLayout({
         notFound();
     }
 
+    // Enable static rendering
     setRequestLocale(locale);
     const messages = await getMessages();
 
@@ -29,9 +30,12 @@ export default async function LocaleLayout({
         <html lang={locale}>
             <head>
                 <title>M.I.R.A - Introspección Mental y Agente de Respuesta</title>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&display=swap" />
             </head>
             <body className="antialiased">
-                <NextIntlClientProvider messages={messages}>
+                <div id="debug-locale" style={{ display: 'none' }} data-locale={locale}></div>
+                <div className="mesh-gradient" />
+                <NextIntlClientProvider messages={messages} locale={locale}>
                     <SafetyProvider>
                         {children}
                     </SafetyProvider>
